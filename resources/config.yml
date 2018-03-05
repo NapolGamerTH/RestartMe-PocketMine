@@ -1,0 +1,39 @@
+#format ที่ใช้ได้:
+#format can use:
+#{RESTART_FORMAT_TIME} hour minute second ชั่วโมง นาที วินาทึ
+#{RESTART_HOUR} hour ชั่วโมง
+#{RESTART_MINUTE} minute นาที
+#{RESTART_SECOND} second วินาที
+#{RESTART_TIME} hour minute secondชม. น. ว.
+#ไฟล์ตั้งค่าสำหรับปลั๊กอิน RestartMe vINDEV
+#Config File For RestartMe vINDEV
+broadcastInterval: 60
+#Sets the interval of the countdown before broadcast, in seconds
+#ตั้งเวลาในการรีเซิร์ฟ
+broadcastMessage: "§7(§cร§6ะ§eบ§aบ§7) §aเซิร์ฟเวอร์กำลังรีสตาร์ทอีก§e {RESTART_MINUTE} §aนาที§r"
+#Sets the message format, will broadcast at the intervals set in broadcastInterval, refer to values.txt for entire list of usable values
+#ตั้งค่าข้อความ
+countdownMessage: "§7(§cร§6ะ§eบ§aบ§7) §aเซิร์ฟเงอร์กำลังรีสตาร์ทอีก§e {RESTART_TIME}§a..."
+#ตั้งค่าข้อความ countdown
+#Sets the message format, will broadcast during countdown, refer to values.txt for entire list of usable values
+displayType: chat
+#ลักษณะการประกาศข้อความ
+#Sets how players get the countdown message, two options: chat, popup
+memoryLimit: 1200M
+#การจำกัดเมม
+#Sets the max memory that can be allocated before server restarts due to overload
+#B = byte; K = kilobyte; M = megabyte; G = gigabyte; T = terabyte; P = petabyte
+overloadQuitMessage: "§eServer restarted due to overload."
+#ตั้งค่าข้อความ Restart แบบตัวเครื่อง VPS เมมไม่พอ ไม่ต้องยุ้งมัน!!!
+#Sets the message sent to a player when they are kicked because of a server restart triggered by a memory overload
+quitMessage: "§cเซิร์ฟเวอร์รีสตาร์ท! §fเข้าเซิร์ฟมาใหม่นะครับ :)§r"
+#Sets the message sent to a player when they are kicked because of a server restart
+restartInterval: 60
+#ตั้งเวลาการรีเซิฟ
+#Sets the interval of the server restart, in minutes
+restartOnOverload: false
+#ไม่ต้องยุ่ง
+#Set to true to allow server restarts when the server's memory is overloaded
+startCountdown: 10
+#ตั้งวินาทีการนับถอยหลัง!!
+#Sets the time when to initiate a countdown, n seconds from restarting
