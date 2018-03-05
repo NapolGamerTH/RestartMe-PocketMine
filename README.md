@@ -29,3 +29,34 @@ Main command: **restartme**, **rm**
 |1.1.0|October 12, 2015|[available](http://forums.pocketmine.net/plugins/restartme.1509/download?version=2836)|
 |1.2.0|December 25, 2015|[available](http://forums.pocketmine.net/plugins/restartme.1509/download?version=2907)|
 |1.3.0|?|unavailable|
+___
+# RestartMe
+ช่วยให้เซิร์ฟของคุณรีสตาร์ทได้!!!!
+
+### คำสั่ง:
+คำสั่งหลัก: **restartme**, **rm**
+
+|คำสั่งย่อย|ข้อมูล|
+|-----------|-----------|
+|**add**, **a**|เพิ่มวินาที|
+|**help**|แสดงคำสั่งทั้งหมด|
+|**memory**, **m**|แสดงเมมโมรี่ที่ใช้อยู่ปัจจุบัน|
+|**set**|ตั้งเวลาเป็นวินาที|
+|**start**|เริ่มเวลา|
+|**stop**|หยุดเวลา|
+|**subtract**, **s**|Subtracts n seconds from the timer|
+|**time**, **t**|ดูเวลาการรีเซิร์ฟ|
+
+### สิทธิ์:
+|Node|Default|
+|----|:-------:|
+|restartme.command.restartme|op|
+
+### ตัวเต็ม:
+|เวอร์ชั่น|ออกวันที่|ดาวน์โหลด|
+|:-------:|------------|:--------:|
+|1.0.0|September 10, 2015|[available](https://github.com/Gamecrafter/PocketMine-Plugins/blob/master/RestartMe/releases/RestartMe_v1.0.0.phar?raw=true)|
+|1.1.0|October 12, 2015|[available](http://forums.pocketmine.net/plugins/restartme.1509/download?version=2836)|
+|1.2.0|December 25, 2015|[available](http://forums.pocketmine.net/plugins/restartme.1509/download?version=2907)|
+|1.3.0|?|ยังไม่มา|
+|INDEV|?|ไม่ได้ทำลิ้งค์|
