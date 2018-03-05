@@ -1,0 +1,17 @@
+name: RestartMe (INDEV)
+main: restartme\RestartMe
+version: INDEV
+api: [3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11, 3.0.1]
+load: STARTUP
+author: NapolGamer TH
+description: ปลั๊กอินนี้จะช่วยรีเซิร์ฟให้คุณ
+website: https://github.com/NapolGamerTH/RestartMe-PocketMine
+permissions:
+ restartme:
+  default: op
+  children:
+   restartme.command:
+    default: op
+    children:
+     restartme.command.restartme:
+      default: op
